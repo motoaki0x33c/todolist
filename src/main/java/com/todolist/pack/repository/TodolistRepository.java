@@ -5,6 +5,6 @@ import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
 @Repository
-public interface TodoRepository extends JpaRepository<Todolist, Long> {
+public interface TodolistRepository extends JpaRepository<Todolist, Long> {
     // JpaRepository 會自動實作好 CRUD 方法
 }
