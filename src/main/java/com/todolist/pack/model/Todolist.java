@@ -14,8 +14,6 @@ import java.time.LocalDateTime;
 public class Todolist {
     @Id // 標記這個欄位是資料表的主鍵
     @GeneratedValue(strategy = GenerationType.IDENTITY) // 指定主鍵的生成策略為自動遞增
-
-    @NotNull
     private Long id;
 
     @NotBlank(message = "請輸入名稱")

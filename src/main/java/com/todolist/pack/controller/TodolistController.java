@@ -7,6 +7,7 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
+@CrossOrigin(origins = "*")     // 開發用，全開 CORS
 @RestController
 @RequestMapping("/todolist")
 public class TodolistController {
